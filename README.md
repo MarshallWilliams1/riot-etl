@@ -1,8 +1,8 @@
-Riot Games Match Data Analytics Platform
-An ETL pipeline and visualization dashboard for League of Legends Challenger tier data.
+# Riot Games Match Data Analytics Platform
+## An ETL pipeline and visualization dashboard for League of Legends Challenger tier data.
 
-Description
-This project is a full-stack data analytics platform that automatically collects, processes, and visualizes match data for the top players in League of Legends. It was built to practice data engineering principles, including API integration, ETL pipeline design, and data modeling. The application serves the processed insights through a REST API to a responsive React frontend, providing a user-friendly interface for exploring high-level game metadata.
+## Description
+### This project is a full-stack data analytics platform that automatically collects, processes, and visualizes match data for the top players in League of Legends. It was built to practice data engineering principles, including API integration, ETL pipeline design, and data modeling. The application serves the processed insights through a REST API to a responsive React frontend, providing a user-friendly interface for exploring high-level game metadata.
 
 Tech Stack
 Backend: Python, Flask
@@ -27,9 +27,11 @@ Live Leaderboard: Shows a real-time, ranked list of the top Challenger players, 
 Screenshots
 Champion Statistics Page:
 A view of the main dashboard displaying champion performance metrics.
+<img width="2541" height="1263" alt="image" src="https://github.com/user-attachments/assets/38a54673-3820-4ab5-b1a4-23a97b80a475" />
 
 Live Challenger Leaderboard:
 The leaderboard page showing players ranked by their current LP.
+<img width="2549" height="1257" alt="image" src="https://github.com/user-attachments/assets/2f256a71-cc84-4424-8d9a-6f1293c1c8a6" />
 
 Local Setup
 To clone and run this project locally, you will need Node.js, Python, and a local MySQL server installed.
@@ -87,3 +89,4 @@ The first time you run the application, the database will be empty. Go to the "C
 
 My Role
 This is a solo project. I designed and built the entire application, from the backend data pipeline and API to the frontend user interface.
+
